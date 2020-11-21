@@ -4,7 +4,7 @@
 </head>
 <body>
 <h2>Weather Dashboard!!</h2>
-<form action="{{ url_for('render_results') }}">
+<form action="{{ url_for('render_results') }}" method="post">
     Location zip : <input type="text" name="zipCode"> <br>
     <input type="submit" value="Submit">
 </form>
